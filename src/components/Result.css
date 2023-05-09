@@ -1,0 +1,61 @@
+#r_main{
+    background: rgb(0,26,61);
+    background: linear-gradient(0deg, rgba(0,26,61,1) 0%, rgba(0,0,98,1) 100%); 
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    min-height: 100dvh;
+    max-height: max-content;
+}
+#r_main a{
+    letter-spacing: 0;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: lightblue;
+}
+
+.a_icon svg{
+    color: red;
+    height: 30px;
+    width: 30px;
+    padding-bottom: 1rem;
+}
+.st_img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+.r_container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+    .r_container{
+        flex-direction: column;
+    }
+    .st_img{
+        margin-right: 0;
+        margin-top: 1.5rem;
+    }
+    .subj{
+        margin-left: 0 !important;
+    }
+}
+.red_login{
+    padding: 3rem;
+}
+.s_info{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.subj{
+    margin-left: 8rem;
+}
